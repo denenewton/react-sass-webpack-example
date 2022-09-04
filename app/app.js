@@ -3,6 +3,7 @@ import React, { useState, useEffect, useRef } from "react"
 import ReactDOM from "react-dom"
 import ProgressBar from "./components/ProgressBar"
 
+
 function App() {
   const [score, setScore] = useState(0)
   const [mistakes, setMistakes] = useState(0)
